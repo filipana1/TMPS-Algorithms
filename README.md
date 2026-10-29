@@ -1,4 +1,4 @@
-# A-Threshold-Based-Editing-Approach-for-Multi-label-Instance-Selection
+# Threshold-Based Prototype Selection for Multi-label Nearest Neighbour Classification
 A common strategy for improving the efficiency of instance-based classifiers while preserving high accuracy is to reduce the size of the training set by replacing it with a smaller, representative subset. This is typically accomplished through data reduction techniques, which have proven highly effective in single-label classification tasks. Their applicability, however, is far less straightforward in multi-label scenarios, where each instance may be associated with multiple classes simultaneously.
 
 In this paper, we extend a widely used single-label data reduction method, the Edited Nearest Neighbor (ENN) rule, to the multi-label domain. In single-label classification, the ENN rule aims to eliminate noisy and borderline instances, thereby producing a cleaner dataset with more clearly defined decision boundaries. The underlying assumption is that instances whose class differs from that of most of their neighbors are likely noise and should be removed.
