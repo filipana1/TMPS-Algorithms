@@ -148,7 +148,7 @@ def run_pipeline(file_path, label_count, n_runs=5):
         plt.legend()
         plt.grid(True, linestyle='--', alpha=0.5)
 
-        image_path = f"/home/pit/PycharmProjects/TMPS_SKYLINE_VERSION/CAL500_plot_run_{run + 1}.png"#ALLAGI
+        image_path = f"/home/pit/PycharmProjects/TMPS_SKYLINE_VERSION/CAL500_plot_run_{run + 1}.png"
         plt.savefig(image_path, dpi=300, bbox_inches='tight')
         plt.close()
 
