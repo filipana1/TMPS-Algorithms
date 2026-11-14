@@ -209,7 +209,7 @@ def run_pipeline(file_path, label_count, n_runs=5):
     print("\n" + summary_text)
 
     # Αποθήκευση στο αρχείο κειμένου
-    output_txt_path = "/home/pit/PycharmProjects/TMPS_SKYLINE_VERSION/results_summary_CAL500.txt"#ALLAGI
+    output_txt_path = "/home/pit/PycharmProjects/TMPS_SKYLINE_VERSION/results_summary_CAL500.txt"
     with open(output_txt_path, "w", encoding="utf-8") as f:
         f.write(summary_text)
 
@@ -226,5 +226,5 @@ def run_pipeline(file_path, label_count, n_runs=5):
 
 # -------------------- Main Entry Point --------------------
 if __name__ == "__main__":
-    dataset_path = "/home/pit/PycharmProjects/TMPS_SKYLINE_VERSION/CAL500_norm.csv"#ALLAGI
-    results = run_pipeline(file_path=dataset_path, label_count=174, n_runs=5)#ALLAGI
+    dataset_path = "/home/pit/PycharmProjects/TMPS_SKYLINE_VERSION/CAL500_norm.csv"#CHANGE NAME OF DATASET
+    results = run_pipeline(file_path=dataset_path, label_count=174, n_runs=5)#CHANGE COUNT LABELS
