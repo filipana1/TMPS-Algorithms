@@ -294,5 +294,5 @@ def run_pipeline(file_path, label_count, n_runs=5):
 
 # -------------------- Main Entry Point --------------------
 if __name__ == "__main__":
-    dataset_path = "/home/pit/PycharmProjects/TMPS2/mediamill_norm.csv"
-    results = run_pipeline(file_path=dataset_path, label_count=101, n_runs=5)
+    dataset_path = "/home/pit/PycharmProjects/TMPS2/mediamill_norm.csv"#CHANGE NAME OF DATASET
+    results = run_pipeline(file_path=dataset_path, label_count=101, n_runs=5)#CHANGE COUNT OF LABELS
